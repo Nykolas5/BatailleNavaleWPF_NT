@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BatailleNavale
+namespace BatailleNavaleWPF
 {
-    class Matrice2D
+    public class Matrice2D
     {
         // La matrice elle-même (tableau bidimensionnel en escalier)
         private Case[,] Matrice { get; }
