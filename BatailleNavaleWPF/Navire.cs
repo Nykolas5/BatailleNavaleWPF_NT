@@ -9,6 +9,7 @@ namespace BatailleNavaleWPF
 
         public Case[] cases;
 
+        // Contructeur de Navire qui oblige d'avoir une longueur.
         public Navire(int longueur, Case[] carres)
         {
             Longueur = longueur;
